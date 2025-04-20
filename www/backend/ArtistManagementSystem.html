@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        input {
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #007bff;
+            color: white;
+        }
+        .reset-btn {
+            background: #dc3545;
+        }
+        .reset-btn:hover {
+            background: #a71d2a;
+        }
+    </style>
+</head>
+<body>
+
+<h2>🎨 Artist Management System</h2>
+
+<div class="container">
+    <!-- Artist Input Form -->
+    <form method="post">
+        <label>First Name:</label>
+        <input type="text" name="firstName" required>
+
+        <label>Last Name:</label>
+        <input type="text" name="lastName" required>
+
+        <label>Art Style:</label>
+        <input type="text" name="style" required>
+
+        <label>Famous Work:</label>
+        <input type="text" name="famousWork" required>
+
+        <label>Birth Date:</label>
+        <input type="date" name="birthDate" required>
+
+        <label>Birth City:</label>
+        <input type="text" name="birthCity" required>
+
+        <button type="submit">➕ Add Artist</button>
+    </form>
+
+    <!-- Display Artists -->
+    <h3>List of Artists</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Art Style</th>
+            <th>Famous Work</th>
+            <th>Birth Info</th>
+        </tr>
+       
+    </table>
+
+    <!-- Clear Artists Button -->
+    <form method="post">
+        <button type="submit" name="clear" class="reset-btn">🗑 Reset Artists</button>
+    </form>
+</div>
+
+</body>
+</html>

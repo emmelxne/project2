@@ -1,0 +1,41 @@
+body {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding-top: 100px
+}
+body {
+    background-image: url("./faqbg3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+h1 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: rgb(85, 71, 57);
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: rgb(156, 133, 4);
+    color: white;
+    border: rgb(156, 133, 4 );
+}
+
+.btn-primary:hover {
+    background-color: rgb(85, 71, 57);
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+}
+.btn-secondary:hover {
+    background-color: #dd9a6e;
+    color: white;
+}

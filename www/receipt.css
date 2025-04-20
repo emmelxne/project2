@@ -1,0 +1,122 @@
+body {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding-top: 100px
+
+}
+
+h2, h4 {
+position: relative;
+z-index: 2;
+color: white;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+background: rgba(255, 255, 255, 0.2);
+padding: 10px 20px;
+display: inline-block;
+border-radius: 5px;
+}
+
+
+body {
+background-image: url("./faqbg3.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+z-index: -2;
+}
+
+container {
+    background-color: rgba(170, 116, 116, 0.85);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card {
+    background-color: #e6e1dc;
+    border: 1px solid #4d3622;
+    border-radius: 10px;
+    padding: 20px;
+    color: #2f261f;
+    font-size: 1.1rem;
+}
+
+.btn {
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Gold button (Proceed to Payment) */
+.btn-success {
+    background-color: rgb(156, 133, 4);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.btn-success:hover {
+    background-color: #454024;
+    color: white;
+}
+
+
+.btn-back {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+}
+.btn-back:hover {
+    background-color: #dd9a6e;
+    color: white;
+}
+
+
+.btn-danger {
+    background-color: rgb(100, 23, 23);
+    color: white;
+    border: none;
+}
+.btn-danger:hover {
+    background-color: #ad4949;
+}
+
+.btn-primary {
+    background-color: #78431d;
+    color: white;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #533623;
+    color: white;
+}
+
+/* Alert Messages */
+.alert {
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.alert-success {
+    background-color: #dff5e1;
+    color: #3e9455;
+}
+.alert-info {
+    background-color: #e8f4fa;
+    color: #15546b;
+}
+.alert-danger {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+/* Button Layout */
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+    justify-content: center;
+}
